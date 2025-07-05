@@ -4,6 +4,7 @@
    <extension point="org.eclipse.mat.report.query">
       <query impl="com.example.matsample.queries.SampleQuery" />
       <query impl="com.example.matsample.queries.SampleOQLQuery" />
+      <query impl="com.example.matsample.queries.ThreadLocalValueTypeQuery" />
    </extension>
    <extension point="org.eclipse.mat.api.nameResolver">
       <resolver impl="com.example.matsample.resolvers.SampleResolver" />
