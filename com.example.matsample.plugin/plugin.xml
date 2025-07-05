@@ -5,6 +5,7 @@
       <query impl="com.example.matsample.queries.SampleQuery" />
       <query impl="com.example.matsample.queries.SampleOQLQuery" />
       <query impl="com.example.matsample.queries.ThreadLocalValueTypeQuery" />
+      <query impl="com.example.matsample.queries.ThreadPoolQueueSizeQuery" />
    </extension>
    <extension point="org.eclipse.mat.api.nameResolver">
       <resolver impl="com.example.matsample.resolvers.SampleResolver" />
